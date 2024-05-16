@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <title>my portfolio</title>
+</head>
+<body>
+    <!-- header -->
+
+    
+        <header class="header">
+            <a href="#" class="logo">Leroy</a>
+              
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class="menu" id="menu-icon">&#9776;</i>
+                <i class="bx bx-x" id="close-icon"></i>
+            </label>
+        
+            <nav class="navbar">
+                <a href="#home" style="--i:0;">Home</a>
+                <a href="#about" style="--i:1;">About</a>
+                <a href="#portfolio" style="--i:2;">Portfolio</a>
+                <a href="#services" style="--i:3;">Services</a>
+                <a href="#contacts" style="--i:4;">Contact</a>
+            </nav>
+           </header>
+           
+        <div class="container">
+            <div class="header-text">
+                <p>UX/UI Designer, Web Development & Digital Marketing</p>
+                <h1>Hi, I'm <span>Leroy Gutu</span>  <br> From Harare Zimbabwe</h1>
+            </div>
+        </div>
+
+
+
+    <!-- about me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/image about.png" alt="" class="img-fluid">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Welcome to my portfolio! I'm Leroy Gutu, a multidisciplinary professional passionate about crafting 
+                        seamless digital experiences. At 25 years young, I've immersed myself in the dynamic realms of UX/UI design,
+                         web development, and digital marketing, blending creativity with technical expertise to bring innovative ideas to life.
+                        <br><br>
+                        With a keen eye for detail and a knack for understanding user behavior, I specialize in creating intuitive interfaces that
+                         not only captivate audiences but also drive meaningful engagement. <br>
+                          Whether it's conceptualizing user flows, coding responsive websites, or strategizing digital campaigns,
+                          I thrive on the challenges of the ever-evolving digital landscape. 
+                        Driven by a relentless pursuit of excellence, I approach each project with enthusiasm and dedication,
+                         ensuring that every design decision and line of code serves a purpose. 
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI?UX</span><br><br> Designing Wed/App interfaces</li>
+                                <li><span>Wed Development</span><br><br> Web app Development</li>
+                                <li><span>App Development</span><br><br> Building Android/IOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>1 Year Experience</span><br><br>  In The Teach Industry</li>
+                                <li><span>UI?UX</span><br><br> Designing Wed/App interfaces</li>
+                                <li><span>Wed Development</span><br><br> Web app Development</li>
+                                <li><span>App Development</span><br><br> Building Android/IOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2017</span><br><br> Ordinary Level Subject Passed 7, C & A Plus</li>
+                                <li><span>2019</span> <br><br>Advanced Level 10 Points</li>
+                                <li><span>2021</span> <br><br>Assistant Signwriter At Russeks Investments</li>
+                                <li><span>2022</span> <br><br>Assistant Plumber At  Charlie BOy Plumbing</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+           <h1 class="sub-title">My Services</h1> 
+           <div class="services-list">
+            <div> 
+                <i class="	fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    Crafting visually appealing and user-friendly digital experiences.
+                </p> 
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                 <i class="fas fa-palette"></i>
+                <h2>UI/UX Design</h2>
+                <p>
+                    Building and maintaining websites with frontend and backend expertise.
+                </p>
+                <a href=Learn more">Learn more</a>
+            </div>
+             <div>
+                <i class="fas fa-dice-d20"></i>
+                <h2>Digital Marketing</h2>
+                <p>
+                     Strategically promoting products or services through online channels.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+           </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+
+      
+
+    
+    <div id="portfolio" class="portfolio">
+        <div class="container">  
+            <h1 id="port">Portfolio Showcase</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="worker">
+                        <img src="./images/Charlie Boy Plumbing.png" alt="" class="img-fluid">
+                        <div class="worker-inner">
+                            <h3>Design project 1</h3>
+                            <p>A Charlie Boy Flair.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="worker">
+                        <a href=""> <img src="./images/the mobi.png" alt="" class="img-fluid"></a>
+                        <div class="worker-inner">
+                            <h3>Design project 2</h3>
+                            <p>The Mobi Web Page Redesign.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="worker">
+                        <a href=""> <img src="./images/DAAS AFRICA.png" alt="" class="img-fluid"></a>
+                        <div class="worker-inner">
+                            <h3>Design project 3</h3>
+                            <p>DAAS Africa redesign.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="worker">
+                        <a href=""><img src="./images/Desktop - 3.png" alt="" class="img-fluid"></a>
+                        <div class="worker-inner">
+                            <h3>Web Development project 1</h3>
+                            <p>Stylish Portfolio Website.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="worker">
+                        <a href=""><img src="./images/nyamatusi 1.png" alt="" class="img-fluid"></a>
+                       
+                        <div class="worker-inner">
+                            <h3>Web Development project 2</h3>
+                            <p>The Nyamatusi Website.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="worker">
+                        <a href=""><img src="./images/STARTBOOTSTRAP.png" alt="" class="img-fluid"></a>
+                        <div class="worker-inner">
+                            <h3>Web Development project 3</h3>
+                            <p>STARTBOOTSTRAP Website.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="far fa-paper-plane"></i>leroygutu696@gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt"></i>+263785651863</p>
+                    
+
+                    <ul>
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                        <li><i class="fab fa-youtube"></i></li>
+                     </ul>
+
+                    
+
+                    <a href="./my cv/@PERSONA.docx" download class="btn btn2">Download Cv</a>
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Leroy | All Rights Reserved 2024.</p>
+        </div>
+    </div>
+    
+
+    
+
+
+    
+    
+
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablinks of tablinks){
+            tablinks.classList.remove("active-link");
+        }
+        for(tabcontents of tabcontents){
+            tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    
+    
+    <script src="./bootstrap.min.js"></script>
+    <script src="./jquery.js"></script>
+</body>
+</html>

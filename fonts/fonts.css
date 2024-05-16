@@ -1,0 +1,14 @@
+@font-face {
+    font-family: reg;
+    src: url(./Chillax-Semibold.otf);
+}
+@font-face {
+    font-family: reg-regula;
+    src: url(./Chillax-Regular.otf);
+}
+p{
+    font-family: reg-regula;
+    font-weight: 200;
+    line-height: 1.2;
+    list-style: none;
+}
