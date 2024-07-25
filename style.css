@@ -609,19 +609,22 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     width: auto;
     height: 100vh;
     background-size: 10%;
-    background-image: url(./images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    background-image: url(./images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
   }
   .container {
-    padding: 10px 2%;
+    padding: 20px 2%;
   }
   .header-text {
-    margin-top: 5%;
+    padding-top: 40px;
     font-size: 30px;
     margin-left: 9%;
     font-weight: 500;
+    background-image: url(./images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    padding-left: 10px;
   }
   .header-text h1 {
     font-size: 60px;
